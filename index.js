@@ -1,40 +1,56 @@
-//            karra jadvali
+// 1-masala
+// 1  min(2,5)==2
+// 2  min(3,-1)==-1
+// 3  min(1,-1)==1
 
-//  for(i=2;i<9;i++){
-//     console.log(" ");
-//     console.log(`${i} karra jadvali`);
-//     console.log('');
-//     for(j=1;j<10;j++){
-//       console.log(`${i} * ${j} = ${i*j} `);  
+// 1.1 masala
+
+// let a=2;
+// let b=5;
+// function min(a,b){
+//    if(a<b) return a;
+//     else return b; 
+// }console.log(min(a,b));
+
+//1.2 masala
+
+// let a=3;
+// let b=-1;
+// function min(a,b){
+//     if(a<b) return a;
+//     else return b;
+// } console.log(min(a,b));
+
+//1.3 masala
+
+// let a = -1;
+// let b = 1;
+
+// function max(a, b) {
+//     if (a < b) {
+//         console.log(a);
+//     } else {
+//         console.log(b);
 //     }
 // }
+// max(1, 1)
 
+//   2-masala
+// 1  pow(3,2) = 3 *3 =9
+// 2  pow(3,3) = 3 *3 *3 =27
+// 3  pow(1,100) = 1*1*1*...*1=1
 
-//      1 dan 100gacha bolgan sonlar ichidan 3ga ham 5ga ham bolinadiganlarini chiqarish
-
-// for(i=1;i<=100;i++){
-//     if(i%3==0 && i%5==0){
-//         console.log(i);
-//     } 
-// }
-
-
-
-// for(i=1;1<5;i++){
-//     for(j=1;j<3;j++){
-//     console.log(j + i);
-// }
-//      console.log("=====");
-// }
-// let res=1;
-// while(res<=10 && res>-10){
-//     console.log(res);
-//     res--;
-  
-// }
-//console.log(new Date().getDay());
-// for(i=1;i<=100;i++){
-//     for(j=2;j<=i;j++){
-        
+//    2.1-masala
+// const pow = (a, b) => {
+//     if (a ** b) {
+//         console.log(a ** b);
+//     } else {
+//         console.log("To'g'ri javob yo'q");
 //     }
-//}
+// }
+// pow(3, 2)
+// pow(3, 3)
+// pow(1, 100)
+
+
+
