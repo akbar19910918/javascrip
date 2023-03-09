@@ -67,3 +67,5 @@
 let main = {
     name: 'Abdulahad'
 }
+
+console.log(main);
