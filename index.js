@@ -64,3 +64,6 @@
 //     height:600,
 //     title:"My menu"
 //  };let
+let main = {
+    name: 'Abdulahad'
+}
